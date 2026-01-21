@@ -1,16 +1,6 @@
-import { Card } from './ui/Card';
-import { motion } from 'framer-motion';
 
-const tools = [
-    { name: "Slack", color: "#E01E5A" },
-    { name: "Notion", color: "#000000" },
-    { name: "HubSpot", color: "#FF7A59" },
-    { name: "Salesforce", color: "#00A1E0" },
-    { name: "Jira", color: "#0052CC" },
-    { name: "GitHub", color: "#181717" },
-    { name: "Zoom", color: "#2D8CFF" },
-    { name: "Google Drive", color: "#4285F4" }
-];
+
+
 
 export function Integrations() {
     return (

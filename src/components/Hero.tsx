@@ -1,6 +1,6 @@
 import { Button } from './ui/Button';
 import { motion } from 'framer-motion';
-import { ArrowRight, Play } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export function Hero() {
     return (

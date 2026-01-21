@@ -1,5 +1,5 @@
 import { Card } from './ui/Card';
-import { Lock, Eye, Server, ShieldCheck, FileText } from 'lucide-react';
+import { Eye, Server, ShieldCheck, FileText } from 'lucide-react';
 
 const commitments = [
     {
