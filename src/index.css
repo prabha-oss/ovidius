@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #fffdf7;
+  --color-cream-dark: #fef5e7;
+
+  --font-space: "Space Grotesk", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+  --shadow-brutal: 4px 4px 0px 0px #000;
+  --shadow-brutal-sm: 2px 2px 0px 0px #000;
+  --shadow-brutal-lg: 8px 8px 0px 0px #000;
+
+  --animate-scale: scale 0.2s ease-in-out;
+}
+
+body {
+  background-color: var(--color-cream);
+  font-family: var(--font-inter);
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-space);
+}
+
+/* Custom utilities if needed */
+.btn-primary {
+  @apply bg-black text-white px-8 py-4 rounded-full font-medium border-2 border-black transition-all hover:-translate-y-1 active:translate-y-0 shadow-none hover:shadow-brutal;
+}
+
+.card-base {
+  @apply bg-cream-dark border-2 border-black rounded-2xl p-8 shadow-brutal;
+}
