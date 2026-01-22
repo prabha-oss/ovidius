@@ -6,23 +6,23 @@ import { Button } from './ui/Button';
 const problems = [
     {
         icon: AlertTriangle,
-        title: "The Pilot Graveyard",
-        description: "Companies run 10 AI pilots. Maybe 1 makes it to production. The rest die in a spreadsheet somewhere, waiting for 'more resources'."
+        title: "Pilot Purgatory",
+        description: "Cool demos. No production value. Endless experiments that go nowhere."
     },
     {
         icon: Database,
-        title: "The Tool Obsession",
-        description: "Teams buy AI tools before they understand the problem. Six months later, nobody's using them. The licenses auto-renew anyway."
+        title: "Tool Hoarding",
+        description: "Buying AI tools before defining the strategy. They sit unused."
     },
     {
         icon: FileText,
-        title: "The Strategy Slide Deck",
-        description: "Consultants deliver a 100-page AI strategy. It sits in a shared drive. Nothing changes. The consultants move on."
+        title: "Shell Strategy",
+        description: "Pretty slide decks. No execution roadmap. Consultants act smart, then leave."
     },
     {
         icon: Users,
         title: "The Adoption Gap",
-        description: "The AI system works. The team doesn't use it. 'We'll get to it.' They don't. The project quietly fails."
+        description: "New tech, old habits. If your team ignores the AI, the project fails."
     }
 ];
 
@@ -46,8 +46,8 @@ export function Problem() {
                         transition={{ delay: 0.1 }}
                         className="text-lg text-gray-600 max-w-2xl mx-auto"
                     >
-                        Every company wants to be "AI-first." Most don't know what that means.
-                        Here's what we see over and over:
+                        Everyone wants "AI-first." Few get results. <br />
+                        We fix the patterns that kill ROI.
                     </motion.p>
                 </div>
 
@@ -70,8 +70,7 @@ export function Problem() {
                 <div className="text-center">
                     <p className="text-xl font-bold font-space mb-8">
                         Sound familiar? <br />
-                        We built Ovidius AI to fix this. Not with more slides. <br />
-                        With systems that actually run — and teams that actually use them.
+                        We build systems that run. Teams that adopt.
                     </p>
                     <Button variant="outline" className="gap-2">
                         See how we do it differently &rarr;

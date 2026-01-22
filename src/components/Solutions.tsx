@@ -5,33 +5,30 @@ import { Map, Zap, Users } from 'lucide-react';
 const solutions = [
     {
         icon: Map,
-        title: "Solution 1: AI Strategy",
-        headline: "Clarity in 2 weeks. Not 2 quarters.",
-        problem: "Most AI strategies are wishlists disguised as roadmaps. They list everything AI could do without answering what it should do first.",
-        approach: "We spend two weeks inside your business. We map your workflows, find the friction, and rank every AI opportunity by ROI and Effort.",
-        deliverables: ["Process audit across 4 departments", "AI opportunity matrix", "Prioritized roadmap", "Executive summary"],
-        timeline: "2 weeks",
-        cta: "Learn more about AI Strategy"
+        title: "1. Strategy",
+        headline: "Clarity in 2 weeks.",
+        problem: "Analysis Paralysis. Where do we start?",
+        approach: "We audit your workflow and find high-ROI targets.",
+        deliverable: "2-Week Roadmap",
+        timeline: "2 Weeks"
     },
     {
         icon: Zap,
-        title: "Solution 2: AI Transformation",
-        headline: "From roadmap to running systems.",
-        problem: "Strategies don't save time. Systems do. But most companies stall between 'we have a plan' and 'we have a working automation'.",
-        approach: "Our AI-native engineers turn your roadmap into production systems. We front-load quick wins so your team sees value fast.",
-        deliverables: ["Custom-built AI systems", "Full documentation", "QA in your environment", "Post-launch support"],
-        timeline: "4-8 weeks for first system",
-        cta: "Learn more about AI Transformation"
+        title: "2. Transformation",
+        headline: "Production, not prototypes.",
+        problem: "Dev shops build software, not solutions.",
+        approach: "We build custom agents and automations that work.",
+        deliverable: "Production AI System",
+        timeline: "4-8 Weeks"
     },
     {
         icon: Users,
-        title: "Solution 3: AI Adoption",
-        headline: "This is where most AI projects die. We don't let it.",
-        problem: "The system works. The team doesn't use it. They're 'too busy' to learn something new. They go back to the old way.",
-        approach: "We train your team until AI systems become part of how they work. It's not a one-time webinar. It's ongoing support and office hours.",
-        deliverables: ["Role-based training", "Weekly Q&A sessions", "Adoption dashboard", "Optimization recommendations"],
-        timeline: "Ongoing (Min 90 days)",
-        cta: "Learn more about AI Adoption"
+        title: "3. Adoption",
+        headline: "Tech unused is tech wasted.",
+        problem: "Great tool. Zero users.",
+        approach: "We train your team until workflows actually change.",
+        deliverable: "Workshops & Playbooks",
+        timeline: "Ongoing"
     }
 ];
 
@@ -40,10 +37,9 @@ export function Solutions() {
         <section className="min-h-screen flex flex-col justify-center py-16 px-6 bg-white" id="solutions">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold font-space mb-4">One partner. Three phases. Zero gaps.</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold font-space mb-4">Strategy. Build. Adoption.</h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        Most AI projects fail because companies jump to tools before strategy, or strategy without adoption. <br className="hidden md:block" />
-                        We do all three — and we don't leave until it works.
+                        We don't just advise. We don't just build. We ensure it works.
                     </p>
                 </div>
 
@@ -64,9 +60,10 @@ export function Solutions() {
                                     <span className="font-bold border-b border-black/20">The Problem:</span>
                                     <p className="text-gray-600 text-sm mt-1">{solution.problem}</p>
                                 </div>
-                                <div>
-                                    <span className="font-bold border-b border-black/20">Our Approach:</span>
                                     <p className="text-gray-600 text-sm mt-1">{solution.approach}</p>
+                                </div>
+                                <div className="mt-2 text-xs font-bold text-gray-500 bg-gray-100 p-2 rounded">
+                                    Deliverable: {solution.deliverable}
                                 </div>
                             </div>
 
@@ -82,8 +79,8 @@ export function Solutions() {
                             </div>
                         </Card>
                     ))}
-                </div>
             </div>
-        </section>
+        </div>
+        </section >
     );
 }

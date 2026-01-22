@@ -4,33 +4,33 @@ import { Phone, Search, Hammer, GraduationCap, BarChart } from 'lucide-react';
 const phases = [
     {
         icon: Phone,
-        title: "Phase 0: Discovery Call",
-        subtitle: "30 minutes",
-        description: "We talk. You tell us where you're at. We tell you honestly if we can help. No pitch deck. No pressure."
+        title: "Discovery",
+        subtitle: "30 mins",
+        description: "We talk. You share your goals. We tell you if we can help. No pitch deck."
     },
     {
         icon: Search,
-        title: "Phase 1: AI Audit",
+        title: "Audit",
         subtitle: "Weeks 1-2",
-        description: "We embed in your business. We map workflows, find friction, and build a prioritized roadmap scored by ROI and effort."
+        description: "We map workflows, find friction, and build a prioritized ROI roadmap."
     },
     {
         icon: Hammer,
-        title: "Phase 2: Build",
+        title: "Build",
         subtitle: "Weeks 3-12",
-        description: "We build your systems. Starting with quick wins. Production-ready, documented, and tested in your environment."
+        description: "We build your systems. Production-ready, documented, and tested."
     },
     {
         icon: GraduationCap,
-        title: "Phase 3: Train & Adopt",
+        title: "Adopt",
         subtitle: "Weeks 8-20",
-        description: "We train your team until adoption sticks. Role-specific sessions, office hours, and usage tracking."
+        description: "We train your team until it sticks. Role-specific sessions and tracking."
     },
     {
         icon: BarChart,
-        title: "Phase 4: Optimize",
+        title: "Optimize",
         subtitle: "Ongoing",
-        description: "We don't disappear. We track metrics, optimize based on real data, and scale successful automations."
+        description: "We track metrics, optimize based on data, and scale what works."
     }
 ];
 
@@ -39,9 +39,9 @@ export function Process() {
         <section className="min-h-screen flex flex-col justify-center py-16 px-6 bg-white" id="how-it-works">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold font-space mb-4">From first call to full adoption.</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold font-space mb-4">First call to full adoption.</h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        No black boxes. No surprises. This is our process.
+                        No black boxes. No surprises.
                     </p>
                 </div>
 

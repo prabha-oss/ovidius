@@ -5,37 +5,37 @@ const team = [
     {
         name: "Owen Boesveld",
         role: "CEO",
-        bio: "Led AI transformations in 20+ companies. Obsessed with making sure AI systems actually get used.",
+        bio: "Led AI transformations in 20+ companies. Obsessed with adoption.",
         linkedin: "#"
     },
     {
         name: "Jason Reynolds",
         role: "COO",
-        bio: "20+ years of digital transformation experience. Runs operations and ensures engagements deliver on promises.",
+        bio: "20+ years digital transformation. Ensures engagements deliver.",
         linkedin: "#"
     },
     {
         name: "Ben van Sprundel",
         role: "CMO",
-        bio: "3x founder and AI educator. Explains AI to business leaders in plain language.",
+        bio: "3x founder. Explains AI to business leaders in plain English.",
         linkedin: "#"
     },
     {
         name: "Oskar Johnston",
         role: "CRO",
-        bio: "10+ years founder experience. Ensures every client relationship starts with honesty about what's possible.",
+        bio: "10+ years founder. Honest about what's actually possible.",
         linkedin: "#"
     },
     {
         name: "Sjaak Kuijl",
-        role: "Solutions Engineer",
-        bio: "Builds AI systems that businesses actually adopt. Redesigns systems until they are simple to use.",
+        role: "Sol. Engineer",
+        bio: "Builds systems that stick. Redesigns until they are simple.",
         linkedin: "#"
     },
     {
         name: "Joao Bosco",
-        role: "Solutions Engineer",
-        bio: "Architect behind complex transformations. Relentless about systems working in the real world, not just demos.",
+        role: "Sol. Engineer",
+        bio: "Complex architecture expert. Focus on real-world reliability.",
         linkedin: "#"
     }
 ];
@@ -47,7 +47,7 @@ export function Team() {
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold font-space mb-4">AI-native. Business-first.</h2>
                     <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                        We've built companies, led transformations, and shipped AI systems that actually get used. Now we do it for you.
+                        We've shipped systems that get used. Now we do it for you.
                     </p>
                 </div>
 
