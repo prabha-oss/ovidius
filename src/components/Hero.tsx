@@ -37,10 +37,10 @@ export function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.2 }}
-                    className="text-lg text-gray-800 max-w-xl mb-8 leading-relaxed font-medium"
+                    className="text-lg text-gray-800 max-w-2xl mb-8 leading-relaxed font-medium"
                 >
-                    Audit. Build. Train.<br className="hidden md:block" />
-                    Roadmap to ROI in months.
+                    We audit your operations, build your AI systems, and train your team to run them.
+                    <br className="hidden md:block" /> From roadmap to ROI in months, not years.
                 </motion.p>
 
                 <motion.div

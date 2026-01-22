@@ -5,37 +5,37 @@ const team = [
     {
         name: "Owen Boesveld",
         role: "CEO",
-        bio: "Led 20+ AI transformations. Adoption obsessed.",
+        bio: "Led AI transformations in 20+ companies. Obsessed with making sure AI systems actually get used.",
         linkedin: "#"
     },
     {
         name: "Jason Reynolds",
         role: "COO",
-        bio: "20y+ Digital Ops. Delivery focused.",
+        bio: "20+ years of digital transformation experience. Runs operations and ensures engagements deliver on promises.",
         linkedin: "#"
     },
     {
         name: "Ben van Sprundel",
         role: "CMO",
-        bio: "3x Founder. Makes AI simple.",
+        bio: "3x founder and AI educator. Explains AI to business leaders in plain language.",
         linkedin: "#"
     },
     {
         name: "Oskar Johnston",
         role: "CRO",
-        bio: "10y+ Founder. Honest scoping.",
+        bio: "10+ years founder experience. Ensures every client relationship starts with honesty about what's possible.",
         linkedin: "#"
     },
     {
         name: "Sjaak Kuijl",
-        role: "Sol. Engineer",
-        bio: "Builds systems that stick.",
+        role: "Solutions Engineer",
+        bio: "Builds AI systems that businesses actually adopt. Redesigns systems until they are simple to use.",
         linkedin: "#"
     },
     {
         name: "Joao Bosco",
-        role: "Sol. Engineer",
-        bio: "Complex architecture expert.",
+        role: "Solutions Engineer",
+        bio: "Architect behind complex transformations. Relentless about systems working in the real world, not just demos.",
         linkedin: "#"
     }
 ];
@@ -47,7 +47,7 @@ export function Team() {
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold font-space mb-4">AI-native. Business-first.</h2>
                     <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                        We've shipped systems that get used. Now we do it for you.
+                        We've built companies, led transformations, and shipped AI systems that actually get used. Now we do it for you.
                     </p>
                 </div>
 

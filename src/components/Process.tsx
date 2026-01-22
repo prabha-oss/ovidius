@@ -6,7 +6,7 @@ const phases = [
         icon: Phone,
         title: "Discovery",
         subtitle: "30 mins",
-        description: "We talk. You share goals. No pitch deck."
+        description: "Alignment on goals. No pitch deck."
     },
     {
         icon: Search,
@@ -24,13 +24,13 @@ const phases = [
         icon: GraduationCap,
         title: "Adopt",
         subtitle: "Weeks 8-20",
-        description: "Training until it sticks. Role-specific."
+        description: "Role-specific training until it sticks."
     },
     {
         icon: BarChart,
         title: "Optimize",
         subtitle: "Ongoing",
-        description: "Track metrics. Optimize. Scale."
+        description: "Track metrics. Scale what works."
     }
 ];
 
@@ -39,9 +39,9 @@ export function Process() {
         <section className="min-h-screen flex flex-col justify-center py-16 px-6 bg-white" id="how-it-works">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold font-space mb-4">First call to full adoption.</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold font-space mb-4">From first call to full adoption.</h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        No black boxes. No surprises.
+                        No black boxes. No surprises. This is our process.
                     </p>
                 </div>
 

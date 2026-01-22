@@ -3,21 +3,21 @@ import { Button } from './ui/Button';
 
 const caseStudies = [
     {
-        client: "[B2B SaaS]",
-        challenge: "Support drowning. 4h replies.",
-        built: ["AI triage", "Auto-drafts", "Escalus rules"],
+        client: "B2B SaaS Support",
+        challenge: "Drowning in tickets. 4h replies.",
+        built: ["AI triage", "Auto-drafts", "Escalation rules"],
         results: ["62% faster", "3.5h saved/rep", "+18 NPS"],
         quote: "\"We needed smarter systems, not more hires.\""
     },
     {
-        client: "[Prof. Services]",
+        client: "Professional Services",
         challenge: "10h/week on proposals.",
         built: ["AI writer", "Auto-research"],
         results: ["70% faster", "31% win rate", "$2.4M rev"],
         quote: "\"Better proposals in a fraction of the time.\""
     },
     {
-        client: "[E-commerce]",
+        client: "E-commerce Ops",
         challenge: "Manual text for 5k SKUs.",
         built: ["Content engine", "Bulk gen"],
         results: ["5k SKUs in 6w", "40h freed", "+12% conv."],
@@ -32,7 +32,7 @@ export function Results() {
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold font-space mb-4">Results, not promises.</h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        Actual ROI from actual deployments.
+                        Here's what happens when AI gets adopted — not just installed.
                     </p>
                 </div>
 

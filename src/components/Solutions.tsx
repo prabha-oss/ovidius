@@ -6,28 +6,22 @@ const solutions = [
     {
         icon: Map,
         title: "1. Strategy",
-        headline: "Clarity in 2 weeks.",
-        problem: "Where do we start?",
-        approach: "We audit workflows & find high-ROI targets.",
-        deliverable: "2-Week Roadmap",
+        headline: "We audit workflows & find high-ROI targets.",
+        deliverables: ["Process Audit", "Opportunity Matrix", "Roadmap", "Exec Summary"],
         timeline: "2 Weeks"
     },
     {
         icon: Zap,
         title: "2. Build",
-        headline: "Production, not demos.",
-        problem: "Software ≠ Solutions.",
-        approach: "Custom agents & automations that actually work.",
-        deliverable: "Live AI System",
+        headline: "We build custom agents that actually work.",
+        deliverables: ["Custom AI Systems", "Documentation", "QA & Testing", "Post-launch Support"],
         timeline: "4-8 Weeks"
     },
     {
         icon: Users,
         title: "3. Adoption",
-        headline: "Tech unused is tech wasted.",
-        problem: "Great tool. Zero users.",
-        approach: "We train teams until habits change.",
-        deliverable: "Workshops & Playbooks",
+        headline: "We train your team until habits change.",
+        deliverables: ["Role-based Training", "Weekly Q&A", "Adoption Dashboard", "Optimization"],
         timeline: "Ongoing"
     }
 ];
@@ -37,9 +31,10 @@ export function Solutions() {
         <section className="min-h-screen flex flex-col justify-center py-16 px-6 bg-white" id="solutions">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold font-space mb-4">Strategy. Build. Adoption.</h2>
+                    <h2 className="text-3xl md:text-4xl font-bold font-space mb-4">One partner. Three phases. Zero gaps.</h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-                        We don't just advise. We don't just build. We ensure it works.
+                        Most AI projects fail because companies jump to tools before strategy, or strategy without adoption. <br className="hidden md:block" />
+                        We do all three — and we don't leave until it works.
                     </p>
                 </div>
 
@@ -56,14 +51,16 @@ export function Solutions() {
                             </div>
 
                             <div className="space-y-3 mb-6 flex-grow">
-                                <div>
-                                    <span className="font-bold border-b border-black/20">The Problem:</span>
-                                    <p className="text-gray-600 text-sm mt-1">{solution.problem}</p>
-                                </div>
-                                    <p className="text-gray-600 text-sm mt-1">{solution.approach}</p>
-                                </div>
-                                <div className="mt-2 text-xs font-bold text-gray-500 bg-gray-100 p-2 rounded">
-                                    Deliverable: {solution.deliverable}
+                                <div className="bg-gray-50 p-4 rounded-lg border border-black/5">
+                                    <span className="text-xs font-bold uppercase text-gray-400 block mb-2">Deliverables</span>
+                                    <ul className="text-sm font-medium text-gray-700 space-y-1">
+                                        {solution.deliverables.map((item, i) => (
+                                            <li key={i} className="flex items-center gap-2">
+                                                <span className="w-1 h-1 bg-black rounded-full" />
+                                                {item}
+                                            </li>
+                                        ))}
+                                    </ul>
                                 </div>
                             </div>
 
@@ -79,8 +76,8 @@ export function Solutions() {
                             </div>
                         </Card>
                     ))}
+                </div>
             </div>
-        </div>
         </section >
     );
 }
