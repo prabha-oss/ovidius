@@ -7,18 +7,18 @@ const solutions = [
         icon: Map,
         title: "1. Strategy",
         headline: "Clarity in 2 weeks.",
-        problem: "Analysis Paralysis. Where do we start?",
-        approach: "We audit your workflow and find high-ROI targets.",
+        problem: "Where do we start?",
+        approach: "We audit workflows & find high-ROI targets.",
         deliverable: "2-Week Roadmap",
         timeline: "2 Weeks"
     },
     {
         icon: Zap,
-        title: "2. Transformation",
-        headline: "Production, not prototypes.",
-        problem: "Dev shops build software, not solutions.",
-        approach: "We build custom agents and automations that work.",
-        deliverable: "Production AI System",
+        title: "2. Build",
+        headline: "Production, not demos.",
+        problem: "Software ≠ Solutions.",
+        approach: "Custom agents & automations that actually work.",
+        deliverable: "Live AI System",
         timeline: "4-8 Weeks"
     },
     {
@@ -26,7 +26,7 @@ const solutions = [
         title: "3. Adoption",
         headline: "Tech unused is tech wasted.",
         problem: "Great tool. Zero users.",
-        approach: "We train your team until workflows actually change.",
+        approach: "We train teams until habits change.",
         deliverable: "Workshops & Playbooks",
         timeline: "Ongoing"
     }

@@ -4,23 +4,23 @@ import { Button } from './ui/Button';
 const caseStudies = [
     {
         client: "[B2B SaaS]",
-        challenge: "Support drowning. 4h response times.",
-        built: ["AI triage", "Auto-drafts", "Escalation rules"],
-        results: ["62% faster responses", "3.5h saved/rep/day", "+18 NPS"],
-        quote: "\"We thought we needed 3 new hires. We just needed smarter systems.\""
+        challenge: "Support drowning. 4h replies.",
+        built: ["AI triage", "Auto-drafts", "Escalus rules"],
+        results: ["62% faster", "3.5h saved/rep", "+18 NPS"],
+        quote: "\"We needed smarter systems, not more hires.\""
     },
     {
         client: "[Prof. Services]",
-        challenge: "Partners wasting 10h/week on proposals.",
-        built: ["Proposal generator", "Auto-research", "Review flow"],
-        results: ["70% less writing time", "31% win rate (+9%)", "$2.4M added revenue"],
+        challenge: "10h/week on proposals.",
+        built: ["AI writer", "Auto-research"],
+        results: ["70% faster", "31% win rate", "$2.4M rev"],
         quote: "\"Better proposals in a fraction of the time.\""
     },
     {
         client: "[E-commerce]",
-        challenge: "Manual descriptions for 5k+ SKUs.",
-        built: ["Content engine", "Bulk generation", "Human review"],
-        results: ["5k SKUs in 6 weeks", "40h/week freed", "+12% conversions"],
+        challenge: "Manual text for 5k SKUs.",
+        built: ["Content engine", "Bulk gen"],
+        results: ["5k SKUs in 6w", "40h freed", "+12% conv."],
         quote: "\"Cleared a 2-year backlog in 6 weeks.\""
     }
 ];

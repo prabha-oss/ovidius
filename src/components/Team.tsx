@@ -5,37 +5,37 @@ const team = [
     {
         name: "Owen Boesveld",
         role: "CEO",
-        bio: "Led AI transformations in 20+ companies. Obsessed with adoption.",
+        bio: "Led 20+ AI transformations. Adoption obsessed.",
         linkedin: "#"
     },
     {
         name: "Jason Reynolds",
         role: "COO",
-        bio: "20+ years digital transformation. Ensures engagements deliver.",
+        bio: "20y+ Digital Ops. Delivery focused.",
         linkedin: "#"
     },
     {
         name: "Ben van Sprundel",
         role: "CMO",
-        bio: "3x founder. Explains AI to business leaders in plain English.",
+        bio: "3x Founder. Makes AI simple.",
         linkedin: "#"
     },
     {
         name: "Oskar Johnston",
         role: "CRO",
-        bio: "10+ years founder. Honest about what's actually possible.",
+        bio: "10y+ Founder. Honest scoping.",
         linkedin: "#"
     },
     {
         name: "Sjaak Kuijl",
         role: "Sol. Engineer",
-        bio: "Builds systems that stick. Redesigns until they are simple.",
+        bio: "Builds systems that stick.",
         linkedin: "#"
     },
     {
         name: "Joao Bosco",
         role: "Sol. Engineer",
-        bio: "Complex architecture expert. Focus on real-world reliability.",
+        bio: "Complex architecture expert.",
         linkedin: "#"
     }
 ];

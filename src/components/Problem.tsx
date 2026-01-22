@@ -7,22 +7,22 @@ const problems = [
     {
         icon: AlertTriangle,
         title: "Pilot Purgatory",
-        description: "Cool demos. No production value. Endless experiments that go nowhere."
+        description: "Cool demos. Zero value. Endless experiments."
     },
     {
         icon: Database,
         title: "Tool Hoarding",
-        description: "Buying AI tools before defining the strategy. They sit unused."
+        description: "Buying tools before strategy. Renewal costs pile up."
     },
     {
         icon: FileText,
         title: "Shell Strategy",
-        description: "Pretty slide decks. No execution roadmap. Consultants act smart, then leave."
+        description: "Pretty slides. No roadmap. Consultants leave you hanging."
     },
     {
         icon: Users,
-        title: "The Adoption Gap",
-        description: "New tech, old habits. If your team ignores the AI, the project fails."
+        title: "Adoption Gap",
+        description: "Great tech. No users. If the team ignores it, it fails."
     }
 ];
 

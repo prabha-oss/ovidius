@@ -6,31 +6,31 @@ const phases = [
         icon: Phone,
         title: "Discovery",
         subtitle: "30 mins",
-        description: "We talk. You share your goals. We tell you if we can help. No pitch deck."
+        description: "We talk. You share goals. No pitch deck."
     },
     {
         icon: Search,
         title: "Audit",
         subtitle: "Weeks 1-2",
-        description: "We map workflows, find friction, and build a prioritized ROI roadmap."
+        description: "Map workflows. Find friction. Build roadmap."
     },
     {
         icon: Hammer,
         title: "Build",
         subtitle: "Weeks 3-12",
-        description: "We build your systems. Production-ready, documented, and tested."
+        description: "We build systems. Tested & documented."
     },
     {
         icon: GraduationCap,
         title: "Adopt",
         subtitle: "Weeks 8-20",
-        description: "We train your team until it sticks. Role-specific sessions and tracking."
+        description: "Training until it sticks. Role-specific."
     },
     {
         icon: BarChart,
         title: "Optimize",
         subtitle: "Ongoing",
-        description: "We track metrics, optimize based on data, and scale what works."
+        description: "Track metrics. Optimize. Scale."
     }
 ];
 
